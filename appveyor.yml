@@ -10,6 +10,7 @@ environment:
     Compiler: vs2008
     PYTHON_ARCH: 64
     PATCH_VS2008: True
+
 install:
 - cmd: git submodule update --init --recursive
 - ps: install-module pscx -scope CurrentUser
